@@ -1,0 +1,3 @@
+## Woof
+
+Demo golang package.
