@@ -8,9 +8,13 @@ Demo golang package.
 
 ```
 // main.go
-import "github.com/roblesdotdev/woof"
+import (
+  "fmt"
+
+  "github.com/roblesdotdev/woof"
+)
 
 func main() {
-  woof.Woof()
+  fmt.Println(woof.Woof())
 }
 ```
