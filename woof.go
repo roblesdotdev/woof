@@ -1,7 +1,5 @@
 package woof
 
-import "fmt"
-
-func Woof() {
-	fmt.Println("Woof!")
+func Woof() string {
+	return "Woof!"
 }
